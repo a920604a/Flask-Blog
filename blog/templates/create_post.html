@@ -1,0 +1,74 @@
+<!--
+ * @Author: yuan
+ * @Date: 2021-05-23 13:26:00
+ * @LastEditTime: 2021-05-25 12:17:05
+ * @FilePath: /python-flask/blog/templates/create_post.html
+-->
+<style>
+    .flask-pagedown-input {
+        font: 15px;
+        color: #d6d6d6;
+        resize: both;
+        float: left;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        width: 50%;
+        height: 100%;
+        border: 2px dotted rgb(0, 0, 0);
+        background-color: #555555;
+    }
+
+    .flask-pagedown-preview {
+        font: 15px;
+        color: #000000;
+        resize: both;
+        float: left;
+        overflow-x: scroll;
+        overflow-y: scroll;
+        width: 50%;
+        height: 100%;
+        /* border: 1px dotted black; */
+        background-color: #f0f0f0;
+    }
+
+    #exhibitor114 {
+        margin: 0 auto;
+        width: 100%;
+        height: 500px;
+    }
+</style>
+{{ pagedown.include_pagedown() }}
+{% extends "base.html" %}
+{% block content %}
+<div class="content-section">
+    <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <fieldset class="form">
+            <legend class="border-bottom mb-4">{{legend}}</legend>
+            <div class="form-group">
+                {{form.title.label(class="form-control-label") }}
+
+                {% if form.title.errors %}
+                {{ form.title(class="form-control form-control-lg is-invalid") }}
+                <div class="invalid-feedback">
+                    {%for error in form.title.errors%}
+                    <span> {{error}}</span>
+                    {% endfor %}
+                </div>
+                {% else %}
+                {{ form.title(class="form-control form-control-lg")}}
+                {% endif %}
+
+            </div>
+            <div class="form-group" id="exhibitor114" style="float:inherit">
+                {{ form.content() }}
+            </div>
+        </fieldset>
+        <div class="form-group">
+            {{form.submit(class="btn btn-outline-info") }}
+        </div>
+
+    </form>
+</div>
+
+{% endblock content %}
