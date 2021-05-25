@@ -1,9 +1,5 @@
 # this is an official Python runtime, used as the parent image
-# for ubuntu
 FROM python:3.9-slim 
-# for mac
-
-# FROM python:3.7.2-stretch
 
 WORKDIR /app
 
