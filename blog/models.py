@@ -1,15 +1,3 @@
-'''
-Author: yuan
-Date: 2021-05-22 17:31:17
-LastEditTime: 2021-05-24 21:09:33
-FilePath: /python-flask/blog/models.py
-'''
-"""
-Author: yuan
-Date: 2021-05-22 17:31:17
-LastEditTime: 2021-05-23 09:01:50
-FilePath: /python-flask/blog/model.py
-"""
 from datetime import datetime
 from blog import db, login_manager
 from flask_login import UserMixin

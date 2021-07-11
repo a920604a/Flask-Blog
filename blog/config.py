@@ -1,16 +1,3 @@
-"""
-Author: yuan
-Date: 2021-05-24 15:39:59
-LastEditTime: 2021-05-25 13:00:30
-FilePath: /python-flask/blog/config.py
-"""
-"""
-Author: yuan
-Date: 2021-05-24 15:39:59
-LastEditTime: 2021-05-25 12:51:52
-FilePath: /python-flask/blog/config.py
-"""
-
 import os
 import secrets
 
