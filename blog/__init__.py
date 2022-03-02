@@ -1,21 +1,3 @@
-"""
-Author: yuan
-Date: 2021-05-22 19:58:55
-LastEditTime: 2021-05-24 15:40:57
-FilePath: /python-flask/blog/__init__.py
-"""
-"""
-Author: yuan
-Date: 2021-05-22 19:58:55
-LastEditTime: 2021-05-24 13:27:59
-FilePath: /python-flask/blog/__init__.py
-"""
-"""
-Author: yuan
-Date: 2021-05-22 19:58:55
-LastEditTime: 2021-05-22 20:00:36
-FilePath: /python-flask/blog/__init__.py
-"""
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt

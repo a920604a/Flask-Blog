@@ -26,7 +26,13 @@ ENV MAIL_SERVER=smtp.googlemail.com
 - blog/static put somthing like image, css 
 - blog/template put html file
 
+<<<<<<< HEAD
 ## TODO
 devlop to 
 
 [reference](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=1)
+=======
+
+## TODO
+- use docker to build blod, cannot send register validation email
+>>>>>>> 1d482ab3e4f67d9383fe79392e8247647e748ceb
