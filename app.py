@@ -1,9 +1,3 @@
-'''
-Author: yuan
-Date: 2021-05-22 19:59:11
-LastEditTime: 2021-05-25 13:40:21
-FilePath: /python-flask/app.py
-'''
 from blog import create_app
 
 app = create_app()
