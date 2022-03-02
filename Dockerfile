@@ -15,4 +15,4 @@ ENV EMAIL_PASS=YOUR_EMAIL_PASSWORD
 ENV SQL_DB_URL=sqlite:///site.db
 ENV MAIL_SERVER=smtp.googlemail.com
 
-CMD ["python", "app.py"]
+# CMD ["python", "app.py"]

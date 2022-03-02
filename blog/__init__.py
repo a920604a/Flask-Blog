@@ -35,7 +35,7 @@ login_manager.login_message_category = "info"
 mail = Mail()
 
 
-# db.create_all()
+db.create_all()
 def create_app(config_class=Config):
 
     app = Flask(__name__)

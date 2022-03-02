@@ -1,10 +1,3 @@
-<!--
- * @Author: yuan
- * @Date: 2021-05-23 13:27:07
- * @LastEditTime: 2021-05-25 13:47:02
- * @FilePath: /python-flask/readme.md
--->
-
 Flask-Blog
 ===
 
@@ -16,7 +9,7 @@ flask run  # or python app.py
 ```
 - option 2
 ```shell=
-docker-compose -d [--build]
+docker-compose up -d [--build]
 ```
 - Note : Remember add env variable in Dockerfile, like:
 ```dockerfile=
@@ -32,3 +25,8 @@ ENV MAIL_SERVER=smtp.googlemail.com
 ## Note
 - blog/static put somthing like image, css 
 - blog/template put html file
+
+## TODO
+devlop to 
+
+[reference](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH&index=1)
